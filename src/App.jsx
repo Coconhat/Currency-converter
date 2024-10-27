@@ -11,6 +11,8 @@ export default function App() {
 
   const currencies = {
     USD: { name: "US Dollar", symbol: "$" },
+    PHP: { name: "Philippine Peso", symbol: "₱" },
+    VND: { name: "Vietnamese Dong", symbol: "₫" },
     EUR: { name: "Euro", symbol: "€" },
     GBP: { name: "British Pound", symbol: "£" },
     JPY: { name: "Japanese Yen", symbol: "¥" },
@@ -18,6 +20,7 @@ export default function App() {
     CAD: { name: "Canadian Dollar", symbol: "C$" },
     CHF: { name: "Swiss Franc", symbol: "Fr" },
     CNY: { name: "Chinese Yuan", symbol: "¥" },
+    THB: { name: "Thai Baht", symbol: "฿" },
     INR: { name: "Indian Rupee", symbol: "₹" },
     NZD: { name: "New Zealand Dollar", symbol: "NZ$" },
     SGD: { name: "Singapore Dollar", symbol: "S$" },
@@ -25,6 +28,7 @@ export default function App() {
     KRW: { name: "South Korean Won", symbol: "₩" },
     BRL: { name: "Brazilian Real", symbol: "R$" },
     MXN: { name: "Mexican Peso", symbol: "Mex$" },
+    RUB: { name: "Russian Ruble", symbol: "₽" },
   };
 
   useEffect(() => {
